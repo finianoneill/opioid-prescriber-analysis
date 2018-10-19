@@ -18,12 +18,15 @@ from flask import request
 
 # store each provider as an input in the mongo db
 # Initialize PyMongo to work with MongoDBs
-conn = 'mongodb://localhost:27017'
+#conn = 'mongodb://localhost:27017'
+conn = 'mongodb+srv://fin_database:findbpass@cluster0-kyr7n.mongodb.net/test?retryWrites=true'
 client = pymongo.MongoClient(conn)
 
 # Define mongo database and collection
-mongo_db = client.opiod_physician_db
-collection = mongo_db.items
+#mongo_db = client.opiod_physician_db
+#collection = mongo_db.items
+mongo_db = client.opioid_physician_db
+collection = mongo_db.physicians
 
 #################################################
 # Flask Setup
