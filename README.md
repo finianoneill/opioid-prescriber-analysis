@@ -54,11 +54,11 @@ The data explored the Opioids prescriber based on the medicare data from the CMS
 •	The result showed that there were 602,734 opioid overdose deaths in the US in 2016.
 •	The table below clearly shows that total deaths due to opioids overdose is 452,369 in the year 2016 in USA as a whole. The total number of deaths was maximum in the New York state (20,733) followed by Maryland (17,918) and North Carolina (16,343).
 
+![Heat Map of Opioid Prescriptions](finian/Images/opioid_prescription_heat_map.png)
+
 Open payments:
 
 The data was cleaned by the dropna function which dropped all the NaN function.
 The analysis shows that there are 5 main opioid manufacturers in the data.
    
-
-
 State Colorado tops the list of the recipient state 
