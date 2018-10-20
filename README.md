@@ -40,9 +40,9 @@ The data was available on the CMS and CDC websites and we used the available API
 
 The technologies that were used in this project were Google API, SOCRATA, PANDAS, and MongoDB:
 
-* Cleaning of data
+* Cleaning of data:
 The data was pretty huge which was cleaned on pandas by the dropna function where all the NaN values were dropped.
-* Storing of the data
+* Storing of the data:
 The data was stored in a remote MongoDB using Mongo Atlas. The 
 
 
