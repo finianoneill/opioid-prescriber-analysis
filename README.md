@@ -40,30 +40,33 @@ The data was available on the CMS and CDC websites and we used the available API
 
 The technologies that were used in this project were Google API, SOCRATA, PANDAS, and MongoDB:
 
-•	Cleaning of data
+* Cleaning of data
 The data was pretty huge which was cleaned on pandas by the dropna function where all the NaN values were dropped.
-•	Storing of the data
+* Storing of the data
 The data was stored in a remote MongoDB using Mongo Atlas. The 
 
 
 ### Analysis and Results
-•	Graphs/Results and Analysis
+
 The data was divided into three parts – “Opioids prescriber analysis”, "Drug Overdoses from the CDC" and “Open Payments to Opioid Prescribers”.
 
 #### Opioids prescriber analysis 
+
 The data explored the Opioids prescriber based on the medicare data from the CMS. 
 
 ![Heat Map of Opioid Prescriptions](finian/Images/opioid_prescription_heat_map.png)
 
-•	There are a number of geographic areas with high opioid prescription patterns, namely: Florida and the Appalachian region.
+There are a number of geographic areas with high opioid prescription patterns, namely: Florida and the Appalachian region.
 
 ### Drug Overdoses from the CDC
-•	The results showed that there were 602,734 opioids overdose deaths in the US in 2016.
-•	The table below clearly shows that total deaths due to opioids overdose is 452,369 in the year 2016 in USA as a whole. The total number of deaths was maximum in the New York state (20,733) followed by Maryland (17,918) and North Carolina (16,343).
+
+The results showed that there were 602,734 opioids overdose deaths in the US in 2016.
+
+* The total number of deaths was maximum in the New York state (20,733) followed by Maryland (17,918) and North Carolina (16,343).
 
 ### Open payments
 
-•	The data was cleaned by the dropna function which dropped all the NaN function.
-•	The analysis shows that there are 5 main opioid manufacturers in the data.
+The data was cleaned by the dropna function which dropped all the NaN function.
+The analysis shows that there are 5 main opioid manufacturers in the data.
    
 Colorado tops the list of US states receiving the most payments from pharmaceutical manufacturers.
