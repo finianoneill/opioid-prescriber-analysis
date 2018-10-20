@@ -4,9 +4,7 @@
 
 ### Introduction
 
-“Opioids” are the class of drugs which are naturally found in the poppy plant. They are often used and prescribed by physicians as pain relieving medicine. 
-
-Centre for Disease control and prevention (CDC)Injury centre looks at the deaths and non-fatal overdoses for four categories of opiods:
+“Opioids” are the class of drugs which are naturally found in the poppy plant. They are often used and prescribed by physicians as pain relieving medicine. Centre for Disease control and prevention (CDC)Injury centre looks at the deaths and non-fatal overdoses for four categories of opiods:
 
 * Natural opioids which includes morphine and codeine and the semi-synthetic opioids which includes drugs like oxycodone,hydrocodone and hydromorphone and oxymorphone.
 * Methadone, a synthetic opioid.
@@ -79,14 +77,13 @@ The results showed that there were 602,734 opioids overdose deaths in the US in 
 Only 19 states report overdose details beyond total # of deaths and total # of overdose deaths. Of the available data, the following can be drawn.
 * NY has the highest amount of reported overdose deaths in the categories of opioids, heroin, natural & semi-synthetic opioids, and synthetic opioids excluding methadone.
 * NC has the highest amt of reported overdose deaths in the category of methadone.
-* The NY data goes into deeper detail- with a â€œYCâ€ state filter available referring to â€œNYC. Looking at NYC alone, it still falls before 90% of US states, and makes up  about 60% of the total NY data.
+* The NY data goes into deeper detail-with a state filter available referring to NYC. Looking at NYC alone, it still falls before 90% of US states, and makes up  about 60% of the total NY data.
 
 ### OPEN PAYMENTS
 
 * The analysis shows that there are 5 main opioid manufacturers in US.
 
- ![Opioid Manufacturer](Preeti\opioid_payments_by_manufacturer.png)
-
+ ![Opioid Manufacturer](Preeti/opioid_payments_by_manufacturer.png)
 
 
 * "Colorado" tops the list of US states receiving the most payments from pharmaceutical manufacturers.
