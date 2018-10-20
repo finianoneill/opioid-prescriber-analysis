@@ -13,9 +13,9 @@ Centre for Disease control and prevention (CDC)Injury centre looks at the deaths
 * Synthetic opioids other than methadone (drugs like tramadol and fentanyl).
 * Heroin, an illicit (illegally made) opioid synthesized from morphine that can be a white or brown powder, or a black sticky substance.
 
-Opioid prescriptions and sales have increased substantially in the US. According to the CDC *in 2016 63,632 opioid drug overdose deaths occurred in the United States.*
+Opioid prescriptions and sales have increased substantially in the US.
 
-Project Aim:  The main aim of our project is to determine the prescribing patterns of Opioids in USA in the year 2016.
+The main aim of our project is to determine the prescribing patterns of Opioids in USA in the year 2016.
 
 ### Methodology:
 
@@ -43,24 +43,27 @@ The technologies that were used in this project were Google API, SOCRATA, PANDAS
 •	Cleaning of data
 The data was pretty huge which was cleaned on pandas by the dropna function where all the NaN values were dropped.
 •	Storing of the data
-Add – MongoDb, API link.
+The data was stored in a remote MongoDB using Mongo Atlas. The 
 
 
 ### Analysis and Results
 •	Graphs/Results and Analysis
-The data was divided into two parts – “Opioids prescriber analysis” and the “Open payments”.
+The data was divided into three parts – “Opioids prescriber analysis”, "Drug Overdoses from the CDC" and “Open Payments to Opioid Prescribers”.
 
-Opioids prescriber analysis 
+#### Opioids prescriber analysis 
 The data explored the Opioids prescriber based on the medicare data from the CMS. 
-
-•	The result showed that there were 602,734 opioid overdose deaths in the US in 2016.
-•	The table below clearly shows that total deaths due to opioids overdose is 452,369 in the year 2016 in USA as a whole. The total number of deaths was maximum in the New York state (20,733) followed by Maryland (17,918) and North Carolina (16,343).
 
 ![Heat Map of Opioid Prescriptions](finian/Images/opioid_prescription_heat_map.png)
 
-Open payments:
+•	There are a number of geographic areas with high opioid prescription patterns, namely: Florida and the Appalachian region.
 
-The data was cleaned by the dropna function which dropped all the NaN function.
-The analysis shows that there are 5 main opioid manufacturers in the data.
+### Drug Overdoses from the CDC
+•	The results showed that there were 602,734 opioids overdose deaths in the US in 2016.
+•	The table below clearly shows that total deaths due to opioids overdose is 452,369 in the year 2016 in USA as a whole. The total number of deaths was maximum in the New York state (20,733) followed by Maryland (17,918) and North Carolina (16,343).
+
+### Open payments
+
+•	The data was cleaned by the dropna function which dropped all the NaN function.
+•	The analysis shows that there are 5 main opioid manufacturers in the data.
    
-State Colorado tops the list of the recipient state 
+Colorado tops the list of US states receiving the most payments from pharmaceutical manufacturers.
